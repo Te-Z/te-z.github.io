@@ -519,19 +519,30 @@ ul#nav li.current a { color: #F06000; }
 	margin: 0 auto;
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
+.popup-modal .description-box h5 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
+.popup-modal .description-box ul {
+    -webkit-column-count:2; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; /* Internet Explorer */
+}
+}
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #636363;
+   margin-bottom: 12px;
+}
+.popup-modal .description-box li {
+	font: 14px/24px 'opensans-regular', sans-serif;
+   color: #636363;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #636363;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
